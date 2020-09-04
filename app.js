@@ -130,16 +130,16 @@ function email(nome,email1,telefone,estado,cidade,whatsappBox,emailbox){
         port: 465,
         secure: true,
         auth: {
-            user: 'atendimento@ainteligenciacriativa.com.br',
-            pass: 'V123asd456@'
+            user: '',
+            pass: ''
         }
     });
     
 
    
 transporter.sendMail({
-    from: '"A Inteligência Criativa" <atendimento@ainteligenciacriativa.com.br>', // sender address
-    to: 'danilo.tito@conninf.com.br',// list of receivers
+    from: '"" <>', // sender address
+    to: '',// list of receivers
     subject:'Lead: '+ email1, // Subject line
     text: "Teste", //'Data:13/08/2020 Nome :  Danilo  , E-mail: danilo.tito@hotmail.com , Telefone: (11)  7070-7070 ,Estado: São Paulo, Cidade : São Paulo  ', // plain text body
     html: '<h1>Lead </h1>'   
