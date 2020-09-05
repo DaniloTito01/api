@@ -1,0 +1,22 @@
+{
+  "name": "teste-heroku",
+  "version": "1.0.0",
+  "description": "teste ",
+  "main": "app.js",
+  "scripts": {
+    "test": "Danilo"
+  },
+  "keywords": [
+    "teste",
+    "npm",
+    "init"
+  ],
+  "author": "Danilo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
